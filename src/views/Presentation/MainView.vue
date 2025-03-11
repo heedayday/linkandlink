@@ -59,12 +59,12 @@ onUnmounted(() => {
               />
             </div>
             <div class="col-2 ps-0">
-              <MaterialButton
+              <router-link to="/search"><MaterialButton
                   variant="gradient"
                   color="success"
                   class="mb-0 h-100 position-relative z-index-2"
               >Search</MaterialButton
-              >
+              ></router-link>
             </div>
           </div>
         </div>
